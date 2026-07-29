@@ -8,6 +8,7 @@ using Vintagestory.GameContent;
 
 namespace WorldMapMaster;
 
+//TODO better interface mechanism and compatibility with stuff like TerraTag
 public partial class WorldMapMasterReforgedModSystem : ModSystem
 {
     public static int TrackedWaypointIndex { get; internal set; } = -1;
